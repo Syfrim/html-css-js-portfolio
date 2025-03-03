@@ -162,7 +162,7 @@ section{
     min-height: 80vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: 2rem;
+    margin-bottom: 4rem;
 }
 
 .section-container{
@@ -175,8 +175,9 @@ section{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
-    margin-bottom: 2rem;
+    height: auto; 
+    min-height: 80vh;
+    padding: 4rem 0;
 }
 
 .section__pic-container {
